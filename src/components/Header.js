@@ -17,7 +17,7 @@ export default function Header() {
           <span>Feane</span>
         </Navbar.Brand>
         <Nav className="mx-auto">
-          <Nav.Link as={Link} to="/menu">Menu</Nav.Link>
+          <Nav.Link as={Link} to="/">Menu</Nav.Link>
           <Nav.Link as={Link} to="/about">About</Nav.Link>
           <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
         </Nav>
@@ -25,4 +25,3 @@ export default function Header() {
     </Navbar>
   );
 }
-
